@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #fafafa;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+}
+
+
+.hero-mission li .line {
+  list-style-type: armenian;
+  font-size: 20px;
+  padding: 8px;
+  margin: 10px;
+  font-family: "Kablammo", cursive;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 1rem;
+  padding: 0.3rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: relative;
+  right: 50%;
+  border-radius: 30px;
+ box-shadow: 2px 2px 2px rgb(52, 7, 255);
+}
+.navbar a:hover{
+border-radius: 0px;
+box-shadow: 2px 5px 10px red;
+color:green
+}
+li{
+  list-style-type:none;
+
+}
+.navbar a:hover {
+  background-color: #f0f0f0;
+}
+
+.world {
+  color: #1b18d2;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #e83c3c;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  margin-top: 4em;
+  position: relative;
+  height: 30rem;
+  padding: 2rem;
+   
+}
+
+#slideshow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-img {
+  width: 70%;
+  height: 30rem;
+  background-image: url("/images/shoe.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 12px 15px 18px rgb(110, 58, 58);
+  border-radius: 5px;
+  margin-right: 4rem;
+  
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 400px;
+  color: rgb(28, 156, 225);
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(224, 53, 11);
+  font-family: "Mukta", sans-serif;
+  background-color: #ffffff;
+}
+
+.line {
+  background-color: #7d0f87;
+  height: 2px;
+}
+
+.A {
+  color: #f20909;
+}
+
+.B {
+  color: rgb(9, 186, 9);
+}
+
+.C {
+  color: rgb(46, 27, 213);
+}
+
+/* Hover effect on navbar links */
+.navbar a:hover {
+  background-color: #e0e0e0;
+  color: #1b18d2;
+  transition: background-color 0.2s ease;
+}
+
+@keyframes slide-out-right {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.hero-img.slide-out-right {
+  animation: slide-out-right 1s ease;
+}
+
+/* Base styles for list items and horizontal lines */
+
+/* Hover styles */
+.hero-mission li .line:hover {
+  color: #1b18d2;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.card {
+  margin: 5px;
+  background-color: rgba(230, 199, 20, 0.925);
+  width: 20rem;
+  box-shadow: 10px 10px 20px rgb(25, 81, 84);
+  transition: all 0.3s ease;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-radius: 10px;
+  box-shadow: 3px 3px 30px rgb(3, 51, 93);
+  border-radius: 0px;
+  background-color: rgb(247, 255, 255);
+}
+
+img {
+  height: 10rem;
+  width: 10rem;
+  box-shadow: 3px 3px 30px rgba(232, 6, 6, 0.578);
+  margin: 5rem;
+}
+
+img:hover {
+  border-radius: 0px;
+  height: 9rem;
+  width: 15rem;
+  /* transform: translateY(-10px); */
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid rgb(7, 76, 78);
+  border-radius: 0px;
+  /* animation: moveRight 0.3s forwards;  */
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(6rem); /* Adjust this value to control how much the image moves to the right */
+  }
+}
+
+h3 {
+  margin: 0 0 5px 5px;
+  text-align: center;
+  color: #e00f0f;
+}
+
+p {
+  margin: 0 0 5px 0px;
+  text-align: center;
+  color: #cf4242;
+}
+
+.line2 {
+  background-color: rgba(221, 195, 225, 0.925);
+  border-color: 2px solid rgba(221, 195, 225, 0.925);
+  height: 1px;
+}
+
+.login-signup {
+  position: relative;
+  left: 15%;
+ 
+}
+
+a.login-btn {
+  color: #701e1e;
+  background-color: #eeeeee;
+  box-shadow: 2px 2px 2px rgb(52, 7, 255);
+  border-radius: 30px;
+}
+
+a.signup-btn {
+  color: #701e1e;
+  background-color: #eeeeee;
+  box-shadow: 2px 2px 2px rgb(52, 7, 255);
+  border-radius: 30px;
+
+}
+
+a.login-btn:hover {
+  color: #701e1e;
+  background-color: #eeeeee;
+  box-shadow: 2px 2px 10px rgb(52, 7, 255);
+  border-radius: 40px;
+  border-radius: 0px;
+
+}
+
+a.signuup-btn:hover {
+  color: #701e1e;
+  background-color: #eeeeee;
+  box-shadow: 2px 2px 10px rgb(52, 7, 255);
+  border-radius: 40px;
+  border-radius: 0px;
+}

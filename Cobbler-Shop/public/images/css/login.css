@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+ 
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .login-container {
+    width: 350px;
+   
+ border: 1px solid rgb(0, 255, 8);
+    padding: 20px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+  
+
+  }
+  
+  .login-container:hover{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: 1px solid rgb(255, 0, 0);
+}
+  h1 {
+    text-align: center;
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+  
+  input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .options {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    
+  }
+  
+  a {
+    color: #d32020;
+    text-decoration: none;
+  }
+  
+  a:hover {
+   color: #0056b3;
+  }
+  
+  .options span {
+    color: #333333;
+    margin: 0 5px;
+  }
+  
